@@ -15,17 +15,17 @@ API_HASH = getenv("a0936ddf210a7e091e19947c7dc70c91", None)
 BOT_TOKEN = getenv("7899653312:AAGcb6bUMYYMNH5ZWaasJCSpUW7sA3gHvDk", None)
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
+MONGO_DB_URI = getenv("mongodb+srv://sunnymuduli584:<db_password>@sunny.s9g6h.mongodb.net/?retryWrites=true&w=majority&appName=Sunny", None)
+MUSIC_BOT_NAME = getenv("Madara_xxx_MusicBot", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1002550042703", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7250012103"))
+OWNER_ID = int(getenv("OWNER_ID", "8156600797"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
